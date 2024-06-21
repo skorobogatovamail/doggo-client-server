@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+$light-bg-color: #FF7F22;
+$light-btn-bg-color: #A4E31D;
+$light-grey: #D9D9D9;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $light-bg-color;
+}
+
+.myBtn {
+  background-color: $light-btn-bg-color;
+  width: 10rem;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.myInput {
+  font-size: 24px; 
+  padding: 10px; 
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: transparent; 
+  outline: none; 
+  transition: border-color 0.3s; 
+}
+
+.myInput::placeholder{
+  color: $light-btn-bg-color;
+}
+
+.progress-bar-container {
+  width: 95%;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: $light-btn-bg-color; 
+  width: 0;
+  transition: width 0.3s;
+  border-radius: 10px;
+}
+
+.navigate {
+  margin: 30px;
+}
+
+.next {
+  background-color: black;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.submit {
+  background-color: $light-btn-bg-color;
+}
+
+.loader {
+  font-size: 80px;
+  color: black;
+  text-decoration: underline;
+}

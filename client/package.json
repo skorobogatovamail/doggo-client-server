@@ -1,0 +1,46 @@
+{
+  "name": "template-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "refreak",
+    "url": "https://t.me/thismisterit",
+    "email": "dimkaboin@yandex.ru"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "drizzle-kit generate:pg",
+    "push": "drizzle-kit push:pg"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^14.2.3",
+    "@tanstack/react-query": "^5.40.0",
+    "@tma.js/sdk": "^2.5.1",
+    "axios": "^1.7.2",
+    "crypto": "^1.0.1",
+    "drizzle-orm": "^0.30.8",
+    "next": "14.2.1",
+    "pg": "^8.11.5",
+    "postgres": "^3.4.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.35.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "drizzle-kit": "^0.20.14",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "telegram-webapps-types-new": "^1.2.0",
+    "typescript": "^5"
+  }
+}
